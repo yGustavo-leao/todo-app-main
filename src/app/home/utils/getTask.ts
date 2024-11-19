@@ -1,0 +1,1 @@
+export const getTask = () => JSON.parse(localStorage.getItem('toDoList') || '[]')
